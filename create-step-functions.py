@@ -154,7 +154,7 @@ response = lambda_client.create_function(
 
 
 # Create the Lambda that updates the registry
-registry_function_name = "ModelRegistryUpdater"
+registry_function_name = "ModelRegistryUpdater-pv"
 registry_zip_name = 'model_registry_lambda.zip'
 registry_lambda_source_code = './code/update_model_registry.py'
 
